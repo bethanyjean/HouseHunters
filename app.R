@@ -1,9 +1,9 @@
 library(shiny)
 source("helper_fun.R")
-source("ui.R")
-source("server.R")
+source("HHui.R")
+source("HHserver.R")
 
 
 
-shinyApp(ui, server)
+shinyApp(ui=ui, server=server)
 
